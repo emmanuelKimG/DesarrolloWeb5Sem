@@ -1,0 +1,68 @@
+.container{
+  color: #F7F4F3;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(17,17,17);
+  
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+
+  display: grid;
+  grid-gap: 20px;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+
+  grid-template-areas:  "title title title"
+                        "slider_card slider_card login-signup_card"
+                        "form_card form_card form_card"
+                        "faq_card faq_card faq_card";
+}
+
+.container .slider_card,
+.container .faq_card,
+.container .form_card,
+.container .login-signup_card{
+  background-color: #2F2F2F;
+  padding-top: 5px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.container .title{
+  color: #F7F4F3;
+  grid-area: title;
+}
+
+.container .slider_card{
+  display: flex;
+  grid-area: slider_card;
+  max-height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .continer .slider_card img{
+  
+} */
+
+.container .login-signup_card{
+  grid-area: login-signup_card;
+  padding-top: 0px;
+}
+
+.container .form_card{
+  grid-area: form_card;
+}
+
+.container .faq_card{
+  grid-area: faq_card;
+}
+
+
+
