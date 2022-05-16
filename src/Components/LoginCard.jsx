@@ -16,10 +16,10 @@ const LoginCard = () =>{
   return(
     <div className ='loginCard'>
       <label  htmlFor='user'>Usuario</label><br/>
-      <input type='text' id='user' value={user} onChange={(e) => setUser(e.target.value)}/><br/>
+      <input type='text' className='shadow-md' id='user' value={user} onChange={(e) => setUser(e.target.value)}/><br/>
       <label  htmlFor='password'>Password</label><br/>
       <input type='text' id='password' value={password} onChange={(e) => setPassword(e.target.value)}/><br/>
-      <input type='submit' className="submitLogin" value={'Log In'} onClick = {handleLogin}/>
+      <input type='submit' className="submitLogin text-black" value={'Log In'} onClick = {handleLogin}/>
     </div>
   )
 } 
