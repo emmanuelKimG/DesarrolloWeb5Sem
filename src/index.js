@@ -1,15 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'
-import {BrowserRouter as Router, Routes, Route, Switch} from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+// Estilos
+import './index.css';
 
 //Componentes
 import Footer from './Components/Footer'
-import Homepage from './Homepage';
+import Homepage from './Components/Homepage';
 import NavBar from './Components/NavBar'
 import Catalogo from './routes/catalogo/catalogo';
 import Contact from './routes/contacto/contacto';
-// Estilos
-import './index.css';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

@@ -1,4 +1,5 @@
 import './SliderCard.css'
+import React from 'react'
 import { SliderData } from "./SliderData"
 import {useState} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa' 

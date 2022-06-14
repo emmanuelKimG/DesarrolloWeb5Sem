@@ -1,5 +1,6 @@
 import NavButton from './NavButton'
 import Logo from './Logo'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 import './NavBar.css'
@@ -13,7 +14,6 @@ function NavBar (){
         <Link to={"/catalogo"}><NavButton text = {'Catálogo'} Link to="/catalogo"/></Link>
         <Link to="{/inicio}"><NavButton text = {'Ofertas'}/></Link>  
         <Link to={"/contacto"}><NavButton text = {'Contacto'}/></Link>
-    
         <NavButton text = {'Perfil'}/>
       </div>
     </nav>

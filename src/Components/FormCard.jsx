@@ -1,5 +1,6 @@
 import {useState} from "react"
-import './FormCard.css'
+import React from "react";
+import './FormCard.css';
 
 const FormCard = () =>{
 

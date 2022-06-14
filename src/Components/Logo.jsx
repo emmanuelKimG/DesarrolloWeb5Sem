@@ -1,8 +1,9 @@
+import React from "react"
 
 function Logo (){
   return (
   <button>
-    <img src = {"coche.png"} alt ={'Logo'} height = '80px'/>
+    <img src = {"/assets/images/coche.png"} alt ={'Logo'} height = '80px'/>
   </button>
   )
   

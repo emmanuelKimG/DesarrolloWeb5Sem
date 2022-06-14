@@ -1,4 +1,4 @@
-import { isContentEditable } from "@testing-library/user-event/dist/utils"
+import React from "react"
 
 function NavButton({text}){
 
@@ -23,7 +23,7 @@ function NavButton({text}){
     <button>
       {text}
       <br/>
-      <img src={iconPicker(text) + '.png'} alt={iconPicker(text)+'img'}/>
+      <img src={'/assets/images/'+iconPicker(text) + '.png'} alt={iconPicker(text)+'img'}/>
     </button>
   )
 }

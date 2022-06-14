@@ -1,4 +1,5 @@
-import './Footer.css'
+import '../css/Footer.css'
+import React from 'react'
 import Logo from './Logo'
 function Footer (){
   return(

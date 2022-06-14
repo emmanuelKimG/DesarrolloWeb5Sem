@@ -1,10 +1,11 @@
-import './Components/NavBar'
-import LoginCard from './Components/LoginCard'
-import Title from './Components/Title'
-import FormCard from './Components/FormCard'
-import SliderCard from './Components/SliderCard'
+import './NavBar'
+import React from 'react'
+import LoginCard from './LoginCard'
+import Title from './Title'
+import FormCard from './FormCard'
+import SliderCard from './SliderCard'
 
-import './Homepage.css'
+import '../css/Homepage.css';
 
 function Homepage() {
 
