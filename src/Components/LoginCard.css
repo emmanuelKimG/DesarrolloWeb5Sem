@@ -15,5 +15,23 @@
 }
 
 .loginCard .submitLogin{
+  margin-top: 10px;
+  margin-bottom: 20px;
   cursor:pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background-color: #E7A42B;
+  font-weight: 700;
+  border: none;
+  transition: .3s ease all;
+  border-radius: 5px;
+  position: relative;
+}
+
+.loginCard .submitLogin:hover{
+  background: #F7F4F3;
+  font-size: 15px;
 }

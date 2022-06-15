@@ -10,6 +10,7 @@ import Homepage from './Components/Homepage';
 import NavBar from './Components/NavBar'
 import Catalogo from './routes/catalogo/catalogo';
 import Contact from './routes/contacto/contacto';
+import Profile from './routes/perfil/perfil';
 
 
 
@@ -20,15 +21,16 @@ root.render(
       <NavBar/>
         <div>
           <Routes>
-            <Route path="/inicio" element= {<Homepage/>}/>
-            <Route path="/catalogo" element= {<Catalogo/>}/>
-            <Route path="/ofertas" element= {<Homepage/>}/>
-            <Route path="/contacto" element= {<Contact/>}/>  
+            <Route path="/inicio" element = {<Homepage/>}/>
+            <Route path="/catalogo" element = {<Catalogo/>}/>
+            <Route path="/ofertas" element = {<Homepage/>}/>
+            <Route path="/contacto" element = {<Contact/>}/>  
+            <Route path="/perfil" element = {<Profile/>}/>
+            <Route path="*" element = {<Homepage/>}/>
           </Routes>
         </div>
         </Router>
       <Footer/>
-    
     </div>
     
  
