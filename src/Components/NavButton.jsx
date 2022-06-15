@@ -23,7 +23,7 @@ function NavButton({text}){
     <button>
       {text}
       <br/>
-      <img src={'/assets/images/'+iconPicker(text) + '.png'} alt={iconPicker(text)+'img'}/>
+      <img src={require('../images/'+iconPicker(text) + '.png')} alt={iconPicker(text)+'img'}/>
     </button>
   )
 }
