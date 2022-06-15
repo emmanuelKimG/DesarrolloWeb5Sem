@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import React from 'react';
 import '../css/LoginCard.css';
+const {login} = require('../database');
 
 const LoginCard = () =>{
 
@@ -10,6 +11,7 @@ const LoginCard = () =>{
 
   const handleLogin = (e) => {
     e.preventDefault();
+    console.log(login('Emmanuel','123'));
     // Aquí se hace una consulta en la base de datos para verificar que existe el usuario
   };
 

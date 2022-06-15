@@ -1,4 +1,4 @@
-import './SliderCard.css'
+import '../css/SliderCard.css'
 import React from 'react'
 import { SliderData } from "./SliderData"
 import {useState} from 'react'
