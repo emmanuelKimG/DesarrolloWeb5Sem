@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const {connection} = require('./database');
+const {connection} = require('./src/database');
 
 
 app.get('/pepe', (req,res)=> {

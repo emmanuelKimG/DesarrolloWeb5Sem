@@ -10,8 +10,6 @@ const FormCard = () =>{
     const [finalDate, setFinalDate] = useState()
     
     
-
-
     return (
         <div>
         <div className="formCard">
