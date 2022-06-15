@@ -8,8 +8,8 @@ import './index.css';
 import Footer from './Components/Footer'
 import Homepage from './Components/Homepage';
 import NavBar from './Components/NavBar'
-import Catalogo from './routes/catalogo/catalogo';
-import Contact from './routes/contacto/contacto';
+import Catalogo from './Components/catalogo';
+import Contact from './Components/contacto';
 import Profile from './routes/perfil/perfil';
 
 

@@ -25,8 +25,8 @@ export default function UserCard({imgSrc, username, email, password, phone, addr
     }
 
     const submitHandler = () =>{
-        if(!NewPassword==""){
-            if(Password==password){
+        if(!NewPassword===""){
+            if(Password===password){
                 setPassword(NewPassword)
                 editBtnHandler()
             }
