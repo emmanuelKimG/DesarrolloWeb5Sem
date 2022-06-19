@@ -15,13 +15,12 @@ connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
     console.log("si se arma");
   });
 
-const login = function insertUser(name, password){
-  connection.query(`INSERT INTO users (name,password) VALUES (${name} , ${password})`, (err, res, fields) => {
+
+  connection.query(`SELECT * from users`, (err, res, fields) => {
     if(err) throw err;
     console.log(res);
   })
-};
+
 
 
 module.exports = connection;
-module.exports = login;
