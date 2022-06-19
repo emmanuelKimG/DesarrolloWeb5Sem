@@ -11,10 +11,10 @@ function NavBar (){
       <div  className = 'logo object-contain w-40'><Logo/></div>
       <div className = 'navButtonGroup'>
         <Link to={"/inicio"}><NavButton text = {'Inicio'}/></Link>
-        <Link to={"/catalogo"}><NavButton text = {'Catálogo'} Link to="/catalogo"/></Link>
-        <Link to="{/inicio}"><NavButton text = {'Ofertas'}/></Link>  
+        <Link to={"/catalogo"}><NavButton text = {'Catálogo'}/></Link>
+        <Link to="{/ofetas}"><NavButton text = {'Ofertas'}/></Link>  
         <Link to={"/contacto"}><NavButton text = {'Contacto'}/></Link>
-        <NavButton text = {'Perfil'}/>
+        <Link to={"/perfil"}><NavButton text={'Perfil'}/></Link>
       </div>
     </nav>
   )

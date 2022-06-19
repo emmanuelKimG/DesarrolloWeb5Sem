@@ -9,6 +9,7 @@
   }
   
   .formCard .siteblock input{
+    color: black;
     height: 30px;
     width: 400px;
     margin-top: 5px;
@@ -19,6 +20,7 @@
   }
 
   .formCard .dateblock input{
+    color: black;
     width: 150px;
     height: 30px;
     margin-top: 5px;
