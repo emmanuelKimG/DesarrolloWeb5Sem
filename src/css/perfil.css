@@ -1,0 +1,16 @@
+.userContainer{
+    text-align: center;
+    align-items: center;
+    color: #F7F4F3;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(17,17,17);
+    width: 100%;
+    margin: 15px auto;
+    border-radius: 10px;
+
+    display:inline-flex;
+    gap: 20px;
+    flex-direction: column;
+}

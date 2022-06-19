@@ -1,0 +1,117 @@
+
+.user_card{
+    text-align: center;
+    align-items: center;
+    color: #F7F4F3;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(17,17,17);
+    width: 100%;
+    margin: 15px auto;
+    border-radius: 10px;
+
+    display:inline-flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+#profilePic{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+#username{
+    font-size:32px;
+    font-weight: 600;
+}
+
+#username span{
+    color: #e8a527
+}
+
+#btnPannel {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    gap: 20px;
+    orientation: horizontal;
+}
+
+ button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor:pointer;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: #E7A42B;
+    font-weight: 700;
+    border: none;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+#btnPannel button:hover{
+    background: #F7F4F3;
+    font-size: 18px;
+}
+
+.user_card h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#editPanel{
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#editPanel label{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#editPanel input{
+    width: 300px;
+    border-radius: 2px;
+    color: black;
+    border: none;
+    padding: 5px;
+}
+
+#editPanel button{
+    cursor:pointer;
+    display: inline-flex;
+    margin-top:40px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    background-color: #E7A42B;
+    font-weight: 700;
+    border: none;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+}
+
+#editPanel button:hover{
+    background: #F7F4F3;
+    font-size: 18px;
+  }
+
+
+
+
+
